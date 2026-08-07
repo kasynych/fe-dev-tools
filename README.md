@@ -22,6 +22,7 @@ FE developer helper for debugging and testing browser applications. Provides opt
 2. Building
 
    2.1. Edit `shared/constants.js` and set `PROJECT_PATH` to the absolute path of the equities-client project you want to integrate with.
+   
    2.2. From the dev-tools repo root:
    
    ```bash
