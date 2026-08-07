@@ -20,6 +20,7 @@ FE developer helper for debugging and testing browser applications. Provides opt
     git clone https://scm.tpicapcloud.com/fusion/ux/dev-tools.git
    ```
 2. Building
+
    2.1. Edit `shared/constants.js` and set `PROJECT_PATH` to the absolute path of the equities-client project you want to integrate with.
    2.2. From the dev-tools repo root:
    
@@ -27,13 +28,13 @@ FE developer helper for debugging and testing browser applications. Provides opt
    deno task build-external
    ```
    This bundles the JS files for use in the browser.
-3. To bundle the app with dev-tools included for local development:
+4. To bundle the app with dev-tools included for local development:
    <p>In dev-tools repo:</p>
 
     ```bash
     deno task launch-app
     ```
-4. Optionally run the dev-tools server:
+5. Optionally run the dev-tools server:
     ```bash
     deno task server
     ```
